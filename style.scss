@@ -14,6 +14,13 @@
 /* BASE RULES */
 /**************/
 
+// myorigin
+.codeterm{
+// font-size: 1em; /* 18px */
+line-height: 0em; /* 24px/18px */
+margin-bottom: 0em; /* 24px/18px */
+}
+
 html {
   font-size: $base-font-size;
 }
