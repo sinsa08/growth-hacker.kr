@@ -22,7 +22,7 @@
 
     {% include analytics.html %}
     <script>
-      dataLayer.push({ 'event' : 'ViewContent' });
+      dataLayer.push({ 'event' : '{{page.title}}' });
     </script>
   </body>
 </html>
